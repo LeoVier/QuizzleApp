@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(67, 17, 99);
+    height: 10vh;
+    padding-left: 3vh;
+    color: #bf6dea;
+}
+body{
+    margin: 0;
+}
+main{
+    background-color: rgb(154, 16, 164);
+    height: 90vh;
+}

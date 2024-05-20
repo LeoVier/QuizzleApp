@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(67, 17, 99);
+    height: 10vh;
+    padding-left: 3vh;
+    color: #bf6dea;
+}
+#logo{
+    height: 7vh;
+}

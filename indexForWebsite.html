@@ -1,0 +1,39 @@
+<!DOCTYPE html id="HTML">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="IndexForWebsite.css" />
+    <link rel="icon" type="image/x-icon" href="img/fav.png" />
+    <title>Quizzle</title>
+    <script src="IndexForWebsite.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="title"><img src="/img/logo.png" id="logo" /></h1>
+      <div id="headerLeft">
+        <a href="AboutUs.html" id="AboutUs">Über uns</a>
+        <img src="img/animal.png" id="animal" />
+        <img src="/img/animal.open.png" id="animalOpen" style="display: none" />
+      </div>
+    </header>
+
+    <main id="main">
+      <!--Homepage-->
+      <img src="/img/Sprechblase.png" id="Sprechblase" style="display: none" />
+      <form action="QuizHome.html">
+        <button id="startGame">Wähle ein Quiz</button>
+      </form>
+
+      <!--Quiz-->
+      <div id="QuestionCard" style="display: none">
+        <!--Frage-->
+        <h1 id="question"></h1>
+
+        <!--button für antworten-->
+        <div id="answer"></div>
+        <div></div>
+      </div>
+    </main>
+  </body>
+</html>
